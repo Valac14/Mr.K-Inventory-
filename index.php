@@ -7,26 +7,200 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         <?php echo "Mr.Kancha";
-    echo "Inventory"; ?>
+        echo "Inventory"; ?>
     </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand">Navbar</a>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+    <!-- header area -->
+
+
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
             </form>
         </div>
-    </nav>
+    </div>
+
+    <!-- End header area -->
+
+
+    <!-- Slider -->
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/h4-slide.png" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/h4-slide3.png" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/h4-slide7.png" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+
+
+    <!-- End slider area -->
+    <br>
+
+    <!-- cards area -->
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <h3>Card 1</h3>
+                <p>Some text</p>
+                <p>Some text</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>Card 2</h3>
+                <p>Some text</p>
+                <p>Some text</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>Card 3</h3>
+                <p>Some text</p>
+                <p>Some text</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <h3>Card 4</h3>
+                <p>Some text</p>
+                <p>Some text</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- content  area -->
+    <br>
+    <h1>New Drops!!!</h1>
+     <!-- next perv area -->
+     <br>
+     <div class="buttons-1">
+            <a href="#" class="previous-1">&laquo; Prev</a>
+            <a href="#" class="next-1">Next &raquo;</a>
+        </div>
+<br>
+    <!-- products area -->
+    <div class="row-1">
+       
+        <div class="column-1">
+            <div class="card-1">
+                <img src="img/product-2.jpg" alt="Jane" style="width:100%">
+                <div class="container">
+                    
+                    <p class="title">Iphone 8</p>
+                    <p>$999</p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="column-1">
+            <div class="card-1">
+                <img src="img/product-1.jpg" alt="Mike" style="width:100%">
+                <div class="container">
+                    
+                    <p class="title">Nokia Lumia 1320</p>
+                    <p>$899</p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="column-1">
+            <div class="card-1">
+                <img src="img/product-2.jpg" alt="John" style="width:100%">
+                <div class="container">
+                    
+                    <p class="title">LG Leon</p>
+                    <p>$400</p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="column-1">
+            <div class="card-1">
+                <img src="img/product-3.jpg" alt="John" style="width:100%">
+                <div class="container">
+                    
+                    <p class="title">Samsung galaxy s5</p>
+                    <p>$700</p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="column-1">
+            <div class="card-1">
+                <img src="img/product-4.jpg" alt="John" style="width:100%">
+                <div class="container">
+                    
+                    <p class="title">Designer</p>
+                    <p>$700</p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="column-1">
+            <div class="card-1">
+                <img src="img/product-5.jpg" alt="John" style="width:100%">
+                <div class="container">
+                    
+                    <p class="title">Sony Microsoft</p>
+                    <p>$200</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+<script src="myscripts.js"></script>
 
 </html>
