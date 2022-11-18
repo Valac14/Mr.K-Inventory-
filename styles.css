@@ -7,6 +7,93 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.header {
+    overflow: hidden;
+    background-color: #171616;
+}
+
+.header a {
+    float: right;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px 7px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.header h1 {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+.header a:hover {
+
+    color: rgb(141, 140, 140);
+}
+
+/* log in form css */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* Close button on hover */
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
 
 /* Add a black background color to the top navigation bar */
 .topnav {
@@ -226,57 +313,47 @@ img {
 }
 
 /* Style the counter cards */
-.card {
+.card-box1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
-    background-color: #f1f1f1;
+    background-color: #ffd900;
 }
+
+.card-box2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #5a88ca;
+}
+
+.card-box3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: salmon;
+}
+
+.card-box4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #4abebd;
+}
+
 
 
 h1 {
-    text-align: center;
     color: #000000;
-    border-bottom: #fd0303;
-    border-bottom-style: solid;
-    border-width: 5px;
-
-
-
+    text-align: center;
+    font-size: 50px;
 }
-
-
-/* Style next perv buttons */
-a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
-
-}
-
-a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.previous-1 {
-    background-color: #5a88ca;
-    color: rgb(255, 255, 255);
-}
-
-.next-1 {
-    background-color: #5a88ca;
-    color: #ffffff;
-}
-
-
-
 
 /* products css */
 /* products columns side by side */
-.column-1{
+.column-1 {
     float: left;
-    width: 15%;
+    width: 20%;
     margin-bottom: 16px;
     padding: 0 8px;
 }
@@ -323,8 +400,38 @@ a:hover {
     text-align: center;
     cursor: pointer;
     width: 100%;
-  }
-  
-  .button:hover {
+}
+
+.button:hover {
     background-color: #5a88ca;
-  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
