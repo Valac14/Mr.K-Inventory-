@@ -114,20 +114,23 @@
      <!-- next perv area -->
      <br>
      <div class="buttons-1">
-            <a href="#" class="previous-1">&laquo; Prev</a>
-            <a href="#" class="next-1">Next &raquo;</a>
+            <a href="#" class="previous-1" onclick="prev()">&laquo; Prev</a>
+            <a href="#" class="next-1" onclick="next()">Next &raquo;</a>
         </div>
 <br>
     <!-- products area -->
     <div class="row-1">
+        
        
         <div class="column-1">
             <div class="card-1">
-                <img src="img/product-2.jpg" alt="Jane" style="width:100%">
+                <img src="img/product-2.jpg" alt="Jane" style="width:100%" class="slider-img"/>
+                
                 <div class="container">
                     
                     <p class="title">Iphone 8</p>
                     <p>$999</p>
+                    <p><button class="button">Add To Cart</button></p>
                     
                 </div>
             </div>
@@ -135,11 +138,12 @@
 
         <div class="column-1">
             <div class="card-1">
-                <img src="img/product-1.jpg" alt="Mike" style="width:100%">
+                <img src="img/product-1.jpg" alt="Mike" style="width:100%" class="slider-img">
                 <div class="container">
                     
                     <p class="title">Nokia Lumia 1320</p>
                     <p>$899</p>
+                    <p><button class="button">Add To Cart</button></p>
                     
                 </div>
             </div>
@@ -147,11 +151,12 @@
 
         <div class="column-1">
             <div class="card-1">
-                <img src="img/product-2.jpg" alt="John" style="width:100%">
+                <img src="img/product-2.jpg" alt="John" style="width:100%" class="slider-img">
                 <div class="container">
                     
                     <p class="title">LG Leon</p>
                     <p>$400</p>
+                    <p><button class="button">Add To Cart</button></p>
                     
                 </div>
             </div>
@@ -159,11 +164,13 @@
 
         <div class="column-1">
             <div class="card-1">
-                <img src="img/product-3.jpg" alt="John" style="width:100%">
+                <img src="img/product-3.jpg" alt="John" style="width:100%" class="slider-img">
+                
                 <div class="container">
                     
                     <p class="title">Samsung galaxy s5</p>
                     <p>$700</p>
+                    <p><button class="button">Add To Cart</button></p>
                     
                 </div>
             </div>
@@ -171,11 +178,12 @@
 
         <div class="column-1">
             <div class="card-1">
-                <img src="img/product-4.jpg" alt="John" style="width:100%">
+                <img src="img/product-4.jpg" alt="John" style="width:100%" class="slider-img">
                 <div class="container">
                     
                     <p class="title">Designer</p>
                     <p>$700</p>
+                    <p><button class="button">Add To Cart</button></p>
                     
                 </div>
             </div>
@@ -183,11 +191,38 @@
 
         <div class="column-1">
             <div class="card-1">
-                <img src="img/product-5.jpg" alt="John" style="width:100%">
+                <img src="img/product-5.jpg" alt="John" style="width:100%" class="slider-img">
                 <div class="container">
                     
                     <p class="title">Sony Microsoft</p>
                     <p>$200</p>
+                    <p><button class="button">Add To Cart</button></p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="column-1">
+            <div class="card-1">
+                <img src="img/product-4.jpg" alt="John" style="width:100%" class="slider-img">
+                <div class="container">
+                    
+                    <p class="title">Designer</p>
+                    <p>$700</p>
+                    <p><button class="button">Add To Cart</button></p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="column-1">
+            <div class="card-1">
+                <img src="img/product-5.jpg" alt="John" style="width:100%" class="slider-img">
+                <div class="container">
+                    
+                    <p class="title">Sony Microsoft</p>
+                    <p>$200</p>
+                    <p><button class="button">Add To Cart</button></p>
                     
                 </div>
             </div>
