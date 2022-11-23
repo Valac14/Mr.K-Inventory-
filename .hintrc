@@ -3,6 +3,29 @@
     "development"
   ],
   "hints": {
-    "no-inline-styles": "off"
-  }
+    "no-inline-styles": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 107",
+    "not chrome <= 107",
+    "not edge <= 107",
+    "not ios_saf <= 16.1",
+    "not opera <= 91",
+    "not safari <= 16.1",
+    "not samsung <= 18"
+  ]
 }
